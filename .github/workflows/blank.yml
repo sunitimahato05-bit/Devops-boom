@@ -23,7 +23,7 @@ uses : actions/checkout@v7
 run: echo "Code checkout done"
 
 build:
-
+needs : code
 runs-on: ubuntu-latest
 
 steps:
